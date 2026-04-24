@@ -236,29 +236,30 @@
 
     /* ===== ABOUT ===== */
     .about-content {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 80px;
-      align-items: start;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
     }
 
     .about-narrative {
       font-size: 17px;
       line-height: 1.85;
       color: rgba(240,236,230,0.75);
+      max-width: 80%;
     }
-
+    
     .about-narrative p { margin-bottom: 20px; }
-
+    
     .about-narrative strong {
       color: var(--text);
       font-weight: 600;
     }
-
+    
     .about-details {
       display: flex;
       flex-direction: column;
       gap: 32px;
+      max-width: 20%;
     }
 
     .detail-block h4 {
@@ -790,7 +791,8 @@
   <!-- Status Bar -->
   <div class="status-bar">
     <div class="status-left">
-      <span>Portfolio 2026</span>
+      <span>Dharmik's Porfolio
+      </span>
       <span id="currentDate"></span>
     </div>
     <div class="status-right">
@@ -824,9 +826,11 @@
     <div class="section-label reveal">About</div>
     <div class="about-content">
       <div class="about-narrative reveal stagger-1">
-        <p>I don't just design interfaces — <strong>I decode how people think, then build around that.</strong> Every pixel carries intent, every flow tells a story. That's been my compass since day one.</p>
-        <p>With over a year immersed in real-world product design at Redlio Designs, I've shipped scalable design systems, untangled complex user journeys, and learned that the best solutions come from <strong>deep listening, not decoration.</strong></p>
-        <p>My current obsession? Exploring how <strong>AI can amplify human-centered design</strong> — particularly in HealthTech, where a well-designed screen can genuinely change someone's day. I believe technology should feel invisible, and the best UX is the one you never notice.</p>
+        <p>I’m a UI/UX designer focused on building intuitive digital experiences by understanding how people think, behave, and interact with technology.</p>
+        <p>At Redlio Designs, I’ve worked on real-world web and product interfaces—designing user flows, creating scalable design systems, and solving complex usability challenges across different domains. My work goes beyond visual design; I focus on aligning user needs with business goals through structured thinking and iterative design.</p>
+        <p>I’ve contributed to projects involving high-impact interfaces, where I collaborated closely with developers and product teams to translate ideas into functional, user-centered solutions. This includes improving interaction clarity, reducing friction in user journeys, and ensuring consistency across design systems.</p>
+        <p> I’m particularly interested in the intersection of AI and human-centered design, exploring how intelligent systems can enhance user experiences while keeping them simple, usable, and meaningful.</p>
+        <p> With a background in engineering, I bring a balance of design thinking and technical understanding, allowing me to design solutions that are not only visually effective but also practical to implement.</p>
       </div>
       <div class="about-details reveal stagger-2">
         <div class="detail-block">
@@ -1001,13 +1005,13 @@
         </div>
         <div class="timeline-content">
           <h3>Redlio Designs</h3>
-          <p>Leading end-to-end UI/UX for web products — from early discovery through shipped pixels. Built and maintained a scalable design system serving multiple product lines. Collaborated closely with engineering and product to ensure seamless handoffs. Integrated AI tools into the prototyping pipeline, cutting iteration cycles by 40%. Championed accessibility audits that improved WCAG compliance across three major projects.</p>
+          <p>Worked across end-to-end UI/UX for web products—from discovery to final delivery—designing intuitive, user-focused interfaces. Contributed to building and scaling a design system across multiple product lines, improving consistency and development speed. Collaborated with engineering and product teams to ensure smooth handoffs and implementation. Leveraged AI tools in the prototyping workflow, reducing iteration cycles by 40%. Contributed to accessibility audits, improving WCAG compliance across three major projects.</p>
           <div class="timeline-tags">
             <span>Design Systems</span>
-            <span>Figma</span>
+            <span>UX Research</span>
             <span>Accessibility</span>
             <span>AI Prototyping</span>
-            <span>Product Strategy</span>
+            <span>Product Thinking</span>
           </div>
         </div>
       </div>
@@ -1018,12 +1022,13 @@
         </div>
         <div class="timeline-content">
           <h3>Redlio Designs</h3>
-          <p>Started as an intern crafting wireframes, user flows, and interactive prototypes for client projects. Conducted usability testing sessions and translated findings into actionable design improvements. Collaborated daily with developers to bridge the gap between design intent and code. Built reusable component libraries that streamlined the team's workflow. Grew from intern to designer by consistently shipping work that moved metrics.</p>
+          <p>Began as a UI/UX intern, designing wireframes, user flows, and interactive prototypes for client-facing projects. Conducted usability testing and translated user insights into meaningful design improvements. Worked closely with developers to ensure seamless implementation and maintain design integrity. Contributed to reusable component libraries that improved workflow efficiency and consistency across projects. Progressed to a UI/UX Designer role through consistent delivery of high-impact design work.</p>
           <div class="timeline-tags">
             <span>Wireframing</span>
-            <span>Usability Testing</span>
+            <span>User Flows</span>
             <span>Prototyping</span>
-            <span>Component Design</span>
+            <span>Usability Testing</span>
+            <span>Developer Collaboration</span>
           </div>
         </div>
       </div>
@@ -1039,16 +1044,19 @@
     <div class="edu-card reveal stagger-2">
       <div>
         <h3>Ahmedabad Institute of Technology</h3>
-        <p class="degree">Bachelor of Engineering — Information Technology</p>
+        <p class="degree">Bachelor of Engineering — Computer Engineering</p>
+        <h3>Government Polytechnic Jamnagar</h3>
+        <p class="degree">Diploma in Computer Engineering</p>
         <div class="edu-focus">
           <span>Human-Computer Interaction</span>
-          <span>UI/UX Design</span>
-          <span>Frontend Development</span>
+          <span>Interaction Design</span>
           <span>Design Thinking</span>
+          <span>Frontend Fundamentals</span>
         </div>
       </div>
       <div class="about-narrative" style="font-size:14px;">
-        <p>My engineering background gave me a deep appreciation for systems thinking and technical constraints. Studying IT while pursuing UX meant I could always see both sides — what's ideal for the user <em>and</em> what's feasible for the engineer. That duality remains my design superpower.</p>
+        <p>I hold a strong technical foundation in Computer Engineering, which shapes the way I approach design—balancing user needs with real-world implementation.</p>
+        <p>This engineering background allows me to bridge the gap between design and development—enabling me to create solutions that are not only user-centered and visually refined, but also technically feasible and efficient to implement.</p>        
       </div>
     </div>
   </section>
